@@ -12,6 +12,10 @@ public class AlunoDAO {
 
     public List<Aluno> obterTodos() {
         List<Aluno> alunos = new ArrayList<>();
+        Conexao conexao = new Conexao();
+        if(conexao.conectar()){
+            alunos = conexao.session.createQuery("from Aluno").list();
+        }
         return alunos;
     }
 
