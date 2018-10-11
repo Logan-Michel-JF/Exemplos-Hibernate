@@ -27,9 +27,9 @@ public class Principal {
             transaction.begin();
             
             //Aqui ele salva
-            /*Sistema sistemaDoKleiton = new Sistema();
+            Sistema sistemaDoKleiton = new Sistema();
             sistemaDoKleiton.setNome("CCleitom");
-            session.save(sistemaDoKleiton);*/
+            session.save(sistemaDoKleiton);
             
             //Aqui ele altera
             /*Sistema sistemaDoKleiton = new Sistema();

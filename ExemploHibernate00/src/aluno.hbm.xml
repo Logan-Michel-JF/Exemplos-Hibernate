@@ -11,7 +11,8 @@
         <property name="nota2" column="nota2" type="double"/>
         <property name="nota3" column="nota3" type="double"/>
         <property name="nota4" column="nota4" type="double"/>
-        <property name="quantidadeFaltas" column="quantidade_faltas" type="int"/>
+        <property name="quantidadeFaltas" column="quantidade_faltas" 
+                  type="int"/>
         
     </class>
 </hibernate-mapping>

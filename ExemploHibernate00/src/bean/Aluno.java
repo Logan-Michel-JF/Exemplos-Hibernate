@@ -5,7 +5,7 @@ package bean;
  */
 public class Aluno {
 
-    private int id, quatidadeFaltas;
+    private int id, quantidadeFaltas;
     private String nome;
     private double nota1, nota2, nota3, nota4;
 
@@ -57,12 +57,12 @@ public class Aluno {
         this.nota4 = nota4;
     }
 
-    public int getQuatidadeFaltas() {
-        return quatidadeFaltas;
+    public int getQuantidadeFaltas() {
+        return quantidadeFaltas;
     }
 
-    public void setQuatidadeFaltas(int quatidadeFaltas) {
-        this.quatidadeFaltas = quatidadeFaltas;
+    public void setQuantidadeFaltas(int quantidadeFaltas) {
+        this.quantidadeFaltas = quantidadeFaltas;
     }
 
 }

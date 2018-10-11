@@ -146,7 +146,7 @@ public class AlunoCadastro extends javax.swing.JFrame {
       aluno.setNota2(Double.parseDouble(jTextFieldNota2.getText()));
       aluno.setNota3(Double.parseDouble(jTextFieldNota3.getText()));
       aluno.setNota4(Double.parseDouble(jTextFieldNota4.getText()));
-      aluno.setQuatidadeFaltas(Integer.parseInt(jTextFieldQuantidadeFaltas.getText()));
+      aluno.setQuantidadeFaltas(Integer.parseInt(jTextFieldQuantidadeFaltas.getText()));
       int id = new AlunoDAO().inserir(aluno);
         
         
