@@ -29,7 +29,7 @@
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTextFieldid" alignment="0" min="-2" pref="218" max="-2" attributes="0"/>
+                          <Component id="jTextFieldId" alignment="0" min="-2" pref="218" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                       <Component id="jButton1" min="-2" max="-2" attributes="0"/>
@@ -39,24 +39,24 @@
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextFieldnome" alignment="0" min="-2" pref="218" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldNome" alignment="0" min="-2" pref="218" max="-2" attributes="0"/>
                                   <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextFieldnota1" alignment="0" min="-2" pref="218" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldNota1" alignment="0" min="-2" pref="218" max="-2" attributes="0"/>
                                   <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextFieldnota3" min="-2" pref="218" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldNota3" min="-2" pref="218" max="-2" attributes="0"/>
                                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextFieldquantidadeFaltas" min="-2" pref="218" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldQuantidadeFaltas" min="-2" pref="218" max="-2" attributes="0"/>
                                   <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jTextFieldnota2" min="-2" pref="218" max="-2" attributes="0"/>
+                              <Component id="jTextFieldNota2" min="-2" pref="218" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="jTextFieldnota4" min="-2" pref="218" max="-2" attributes="0"/>
+                              <Component id="jTextFieldNota4" min="-2" pref="218" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="0" pref="103" max="32767" attributes="0"/>
@@ -79,8 +79,8 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jTextFieldnome" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
-                          <Component id="jTextFieldquantidadeFaltas" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldNome" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="jTextFieldQuantidadeFaltas" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -89,8 +89,8 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jTextFieldnota3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTextFieldnota1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldNota3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldNota1" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -99,13 +99,13 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jTextFieldnota2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTextFieldnota4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldNota2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldNota4" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextFieldid" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldId" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
@@ -119,19 +119,19 @@
         <Property name="text" type="java.lang.String" value="Quantidade de Faltas"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextFieldquantidadeFaltas">
+    <Component class="javax.swing.JTextField" name="jTextFieldQuantidadeFaltas">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextFieldnome">
+    <Component class="javax.swing.JTextField" name="jTextFieldNome">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextFieldnota1">
+    <Component class="javax.swing.JTextField" name="jTextFieldNota1">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextFieldnota3">
+    <Component class="javax.swing.JTextField" name="jTextFieldNota3">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextFieldnota2">
+    <Component class="javax.swing.JTextField" name="jTextFieldNota2">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextFieldid">
+    <Component class="javax.swing.JTextField" name="jTextFieldId">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextFieldnota4">
+    <Component class="javax.swing.JTextField" name="jTextFieldNota4">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
@@ -167,6 +167,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Salvar"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
