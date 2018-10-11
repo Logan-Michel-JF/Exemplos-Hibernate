@@ -27,9 +27,9 @@ public class Principal {
             transaction.begin();
             
             //Aqui ele salva
-            Sistema sistemaDoKleiton = new Sistema();
-            sistemaDoKleiton.setNome("CCleitom");
-            session.save(sistemaDoKleiton);
+            /*Sistema sistemaDoKleiton = new Sistema();
+            sistemaDoKleiton.setNome("CCCleitom");
+            session.save(sistemaDoKleiton);*/
             
             //Aqui ele altera
             /*Sistema sistemaDoKleiton = new Sistema();
@@ -44,9 +44,9 @@ public class Principal {
             }*/
             
             //Aqui ele deleta
-            /*Sistema sistema = new Sistema();
+            Sistema sistema = new Sistema();
             sistema.setId(1);
-            session.remove(sistema);*/
+            session.remove(sistema);
             
             //INSERT NO BD
             transaction.commit();
